@@ -9,7 +9,7 @@ ruby '~> 2.5.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'active_model_serializers', '~> 0.10.0'
-gem 'rails', '~> 5.0.7'
+gem 'rails', '~> 6.0.2'
 # Use Puma as the app server
 gem 'puma', '~> 3.12'
 gem 'pg'
