@@ -41,9 +41,9 @@
 /config/master.key
 
 # Docker files
-.dockerignore
-docker-compose.yml
-Dockerfile
+# .dockerignore
+# docker-compose.yml
+# Dockerfile
 
 # Others
 /public/uploads/*
