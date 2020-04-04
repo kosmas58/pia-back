@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '~> 2.6.5'
+ruby '~> 2.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'fast_jsonapi'
@@ -37,6 +37,8 @@ gem 'bootsnap', '>= 1.4.6', require: false
 gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
+  gem 'debase'
+  gem 'ruby-debug-ide'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform:  [:mri, :mingw, :x64_mingw]
   gem "factory_bot_rails"

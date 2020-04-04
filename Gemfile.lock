@@ -77,6 +77,9 @@ GEM
       mimemagic (~> 0.3.2)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.9)
     dotenv (2.7.5)
     dotenv-rails (2.7.5)
       dotenv (= 2.7.5)
@@ -122,7 +125,7 @@ GEM
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.1)
-    parser (2.7.0.5)
+    parser (2.7.1.0)
       ast (~> 2.4.0)
     pg (1.2.3)
     public_suffix (4.0.3)
@@ -173,6 +176,8 @@ GEM
       rexml
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
+    ruby-debug-ide (0.7.0)
+      rake (>= 0.8.1)
     ruby-progressbar (1.10.1)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
@@ -202,6 +207,7 @@ DEPENDENCIES
   byebug
   carrierwave (~> 2.1.0)
   carrierwave-base64 (~> 2.8.0)
+  debase
   dotenv-rails
   factory_bot_rails
   fast_jsonapi
@@ -212,10 +218,11 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.0.2)
   rubocop
+  ruby-debug-ide
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.6.5p114
+   ruby 2.7.1p83
 
 BUNDLED WITH
    2.1.4
