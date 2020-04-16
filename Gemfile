@@ -13,7 +13,7 @@ gem 'puma', '~> 4.3'
 gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.1.0'
-gem 'carrierwave-base64', '~> 2.8.0'
+gem 'carrierwave-base64', '~> 2.8.1'
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
