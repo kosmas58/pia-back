@@ -9,7 +9,7 @@ gem 'rails', '~> 6.0.3'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.0'
 gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.1.0'
@@ -21,7 +21,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.13'
+gem 'bcrypt', '~> 3.1.16'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -49,7 +49,7 @@ group :development do
   gem 'rubocop', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
