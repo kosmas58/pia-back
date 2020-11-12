@@ -2,8 +2,8 @@ version: '3'
 services:
   db:
     container_name: pia-community-db
-    image: postgres:12.3
-    restart: always
+    image: library/postgres:12.4
+    # restart: always
     environment:
       POSTGRES_USER: pia-user
       POSTGRES_PASSWORD: pia-test
