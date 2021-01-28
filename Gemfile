@@ -9,7 +9,7 @@ gem 'rails', '~> 6.1.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 5.1'
+gem 'puma', '~> 5.2'
 gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.1.0'
@@ -30,7 +30,7 @@ gem 'bcrypt', '~> 3.1.16'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.5.1', require: false
+gem 'bootsnap', '>= 1.6.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
