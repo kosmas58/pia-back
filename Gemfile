@@ -30,7 +30,7 @@ gem 'bcrypt', '~> 3.1.16'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.6', require: false
+gem 'bootsnap', '>= 1.7', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
