@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     container_name: pia-community-db
-    image: library/postgres:12.5
+    image: library/postgres:13
     # restart: always
     environment:
       POSTGRES_USER: pia-user
