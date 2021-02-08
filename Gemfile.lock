@@ -68,13 +68,14 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
-    carrierwave (2.1.0)
+    carrierwave (2.1.1)
       activemodel (>= 5.0.0)
       activesupport (>= 5.0.0)
       addressable (~> 2.6)
       image_processing (~> 1.1)
       mimemagic (>= 0.3.0)
       mini_mime (>= 0.1.3)
+      ssrf_filter (~> 1.0)
     carrierwave-base64 (2.8.1)
       carrierwave (>= 0.8.0)
       mime-types (~> 3.0)
@@ -203,6 +204,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    ssrf_filter (1.0.7)
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -220,7 +222,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.16)
   bootsnap (>= 1.7)
   byebug
-  carrierwave (~> 2.1.0)
+  carrierwave (~> 2.1.1)
   carrierwave-base64 (~> 2.8.1)
   debase
   dotenv-rails
