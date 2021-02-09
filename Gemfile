@@ -12,8 +12,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 5.2'
 gem 'mime-types', '~> 3.3'
 
-gem 'carrierwave', '~> 2.1.0'
-gem 'carrierwave-base64', '~> 2.8.1'
+gem 'carrierwave', '~> 2.1'
+gem 'carrierwave-base64', '~> 2.8'
 gem 'dotenv-rails', groups: [:development, :test]
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -21,7 +21,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.16'
+gem 'bcrypt', '~> 3.1'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
@@ -45,11 +45,11 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.4.1'
+  gem 'listen', '~> 3.4'
   gem 'rubocop', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.1'
+  gem 'spring-watcher-listen', '~> 2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
