@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:11
+        image: postgres:13
         env:
           POSTGRES_USER: postgres
           POSTGRES_DB: pia_test
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Ruby
         uses: actions/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
+          ruby-version: 2.7.x
       - name: Build and run tests
         env:
           DATABASE_URL: postgres://postgres:postgres@localhost:5432/pia_test
