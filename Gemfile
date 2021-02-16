@@ -5,16 +5,16 @@ ruby '~> 2.7'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'fast_jsonapi'
-gem 'rails', '~> 6.0.2'
+gem 'rails', '~> 6.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.2'
 gem 'mime-types', '~> 3.3'
 
-gem 'carrierwave', '~> 2.0.2'
-gem 'carrierwave-base64', '~> 2.8.0'
-gem 'dotenv-rails'
+gem 'carrierwave', '~> 2.1'
+gem 'carrierwave-base64', '~> 2.8'
+gem 'dotenv-rails', groups: [:development, :test]
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
@@ -30,7 +30,7 @@ gem 'bcrypt', '~> 3.1'
 # gem 'capistrano-rails', group: :development
 
 # Reduces boot times through caching; required in config/boot.rb
-gem 'bootsnap', '>= 1.4.5', require: false
+gem 'bootsnap', '>= 1.7', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
@@ -52,7 +52,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'listen', '~> 3.2.1'
+  gem 'listen', '~> 3.4'
   gem 'rubocop', require: false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
