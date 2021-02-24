@@ -68,7 +68,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
-    carrierwave (2.1.1)
+    carrierwave (2.2.0)
       activemodel (>= 5.0.0)
       activesupport (>= 5.0.0)
       addressable (~> 2.6)
@@ -123,7 +123,7 @@ GEM
     mini_magick (4.11.0)
     mini_mime (1.0.2)
     mini_portile2 (2.5.0)
-    minitest (5.14.3)
+    minitest (5.14.4)
     msgpack (1.4.2)
     nio4r (2.5.5)
     nokogiri (1.11.1)
@@ -175,7 +175,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (2.0.3)
+    regexp_parser (2.1.1)
     rexml (3.2.4)
     rubocop (1.10.0)
       parallel (~> 1.10)
@@ -222,7 +222,7 @@ DEPENDENCIES
   bcrypt (~> 3.1)
   bootsnap (>= 1.7)
   byebug
-  carrierwave (~> 2.1)
+  carrierwave (~> 2.2)
   carrierwave-base64 (~> 2.8)
   debase
   dotenv-rails
@@ -244,4 +244,4 @@ RUBY VERSION
    ruby 2.7.1p83
 
 BUNDLED WITH
-   2.2.10
+   2.2.11
