@@ -14,8 +14,6 @@ gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.2'
 gem 'carrierwave-base64', '~> 2.8'
-gem 'dotenv-rails', groups: [:development, :test]
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -37,11 +35,12 @@ gem 'bootsnap', '>= 1.7', require: false
 gem 'rack-cors', :require => 'rack/cors'
 
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'debase'
   gem 'ruby-debug-ide'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform:  [:mri, :mingw, :x64_mingw]
-  gem "factory_bot_rails"
+  gem 'factory_bot_rails'
 end
 
 group :development do
