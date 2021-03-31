@@ -13,7 +13,7 @@ gem 'puma', '~> 5.2'
 gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.2'
-gem 'carrierwave-base64', '~> 2.8'
+gem 'carrierwave-base64', '~> 2.10'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
