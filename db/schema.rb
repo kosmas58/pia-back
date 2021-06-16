@@ -2,8 +2,8 @@
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
 #
-# This file is the source Rails uses to define your schema when running `bin/rails
-# db:schema:load`. When creating a new database, `bin/rails db:schema:load` tends to
+# This file is the source Rails uses to define your schema when running `rails
+# db:schema:load`. When creating a new database, `rails db:schema:load` tends to
 # be faster and is potentially less error prone than running all of your
 # migrations from scratch. Old migrations may fail to apply correctly if those
 # migrations use external dependencies or application code.
@@ -209,7 +209,7 @@ ActiveRecord::Schema.define(version: 2021_03_16_210416) do
   add_foreign_key "attachments", "pias"
   add_foreign_key "comments", "pias"
   add_foreign_key "evaluations", "pias"
-  add_foreign_key "knowledges", "knowledge_bases"
+  add_foreign_key "knowledges", "knowledge_bases", column: "knowledge_base_id"
   add_foreign_key "measures", "pias"
   add_foreign_key "oauth_access_grants", "oauth_applications", column: "application_id"
   add_foreign_key "oauth_access_grants", "users", column: "resource_owner_id"
