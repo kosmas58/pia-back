@@ -14,6 +14,7 @@ gem 'mime-types', '~> 3.3'
 
 gem 'carrierwave', '~> 2.2'
 gem 'carrierwave-base64', '~> 2.10'
+gem 'dotenv-rails'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
@@ -44,7 +45,6 @@ gem 'devise-i18n'
 gem 'doorkeeper-i18n'
 
 group :development, :test do
-  gem 'dotenv-rails'
   gem 'debase'
   gem 'ruby-debug-ide'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
